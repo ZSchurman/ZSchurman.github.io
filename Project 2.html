@@ -63,42 +63,47 @@
                         
                         <h2 class="section-heading">The nametags!</h2>
 
-                        <p>I printed my first nametag at the makerlab the day before class. Everything went smoothly - it was super easy, and the result was basically perfect, I even got to use some especially pretty colors. I used their computers, and with only two other people learning alongside me, the whole experience was very relaxed.
-</p>
-<p>
-My second print was a bit more interesting. I wanted to make the nametag smaller since I keep it on my keychain, and the original size was rather bulky. However, I ran into an issue. When I tried to shrink it down, the multicolored design disappeared - it would only print in a single color, as opposed to the base being one color with the letters another. But when I made it slightly bigger, the multicolor option returned.
-</p>
-<p>
-So, I printed it! Unexpectedly, the first two layers of the letters were the same as the base color, and only the next two used the alternate color. Thus, I hypothesized that the way the design controlled color was through a height threshold: at a certain height, the print switches color, rather than switching after completing one component of the design. This should typically work, as it’s typically printed at just one size. I tested this idea by comparing the two nametags side by side. Both had a base color which stopped at the same height, ignoring the other structural aspects of the nametags, supporting my hypothesis.
-</p>
-<p>
-Another thing to note was that the little one seemed to have more visible stringing, but I don’t really care about stringing here, so that’s ok.
-</p>
-<p>
+                        <p>
+                       The first project was both fun and simple to design! My original sketch featured a lil chantrelle being with swords and holes on the edge of their cap, to put earrings in the holes and rings or any earrings that didn’t work on the swords. I was designing this for my roommate, who’s favorite mushrooms are chantrelles. :) Choosing the base took quite a while, but it ended up being really close to what I envisioned for the final product! I added holes in the cap for earrings, as well as some swords and eyes. After slicing, I saw that the swords were too thin, so I changed the sword design, to make them thicker.
+                   </p>
+
+                   <p>
 <a href="#!"><img class="img-fluid" src="assets/img/Name.jpg" alt="..." /></a>
 </p>
+</p>
+<p>
 
-                        <h2 class="section-heading">The torture test :0</h2>
-                        <p>
+The primary arena in which I learned was in the actual printing! When I went in to try and print it, the fabulous Avery (of the 3D printing club) was there and able to help out. We ran into quite a lot of issues, and because of that, I got to learn a ton about how the Prusa Mini actually works. The biggest recurring issue was that the filament just didn’t want to extrude. So, I learned about how filament can get chewed up by the gear, and got to remove the Bowden tube, clear the nozzle, and do a bunch more troubleshooting. Eventually, Avery left, which worked out well— many of the same complications arose, so I was able to practice solving them myself. In the end, we deemed it a filament issue, as the same set of issues occurred for 3 different printers (with both the print and a first layer calibration test). When I printed it in a different filament, it worked great!
 
-Prediction: My hypothesis is that the print will fail in a couple of ways! First, the overhang will fail - not at the bottom, as the overhang isn’t at a particularly dramatic angle, but instead, further near the top (perhaps the third spike from the top or so). I definitely think it will fail before the ends get super thin, where they look to be equivalent to one or two layers or plastic. I think it will droop down badly, if not failing into spaghetti, at the two-pronged bits up top. I would be really surprised if the printer can handle such thin and pushed out structures.
-</p>
-<a href="#!"><img class="img-fluid" src="assets/ogdesign.jpg" alt="..." /></a>
-                        <span class="caption text-muted">The model</span>
-<p>
-Observations: 
- A few failure modes occurred!
+
 </p>
 <p>
-My predictions were partially right. Interestingly, the first failure began on the spike I predicted. It failed with drooping. The underside of the spike looked beaded, and some spikes quickly became round. Also, random oval-like protrusions came out from where there weren’t even meant to be spikes. 
+On the point of 3D printing settings, I used organic supports with .3 top contact z distance to make the supports easy to remove, which they were! I was a bit worried about the swords getting pulled off when removing supports, as their hilts are rather thin. But, they held strong. At one point, I messed with the settings for the support density to see what would happen. I set it low, somewhere below 40%, and on the first layer, it got messed up. So, I set it higher, at 80%, and all was well.
+</p>
+<p>
+
+I’m really happy with the final print! It’s not the right color, but I’ll paint it. :) I plan to make a few more of these (friends have asked for copies), and if I had more time, I would change the base to look more natural. Also,  In my sketch, the ratio of cap to stalk was higher, and I’d love to see if I could make one in which that was the case, though I think it would be a bit harder to print. But, all in all, it does what it’s meant to do, and looks cute doing it!
+</p>
+]
+image
+<p>
+While with the first design, I learned tons about the physical aspects of 3D printing, the second design is primarily where I learned about CAD. Fundamentally, the software I was using wasn’t built for what I set out to do. My goal was to print a ridiculously intricate frame for my frozen pea bag (which I still plan to do!!), with the words “Live, Laugh, Legumes”, but Fusion couldn’t handle even .01% of the triangles in the mesh of the frames I was working from. 
+</p>
+image
+<p>
+Because of this, I learned a lot more about what types of models to try to bring into Fusion! I tried working with 5-10 different frames before settling on one that was just a rectangle. (I tried a couple frames before which I thought were simple rectangles, but they weren’t! I was bamboozled!) I added my text – initially in the conventional ‘Live Laugh Love’ cursive – but this didn’t want to print, as the letters were too thin. So, I settled on a traditional horror font, as I felt it captured the essence of the state of the project.
+</p>
+<p>
+
+All the print settings were the same as the final print of my chantrelle. I printed it almost at the edge of the 7x7 print bed! Possibly because of this, the first time I tried to print it, the edge was a little funky, so I cancelled after a few minutes. The second print turned out fine. 
+</p>
+<p>
+I will definitely remake this!! I want to take this into software that can handle the organic shapes, and make this a truly grand piece of wall decor. I’m talking a light green, ornate masterpiece that will be at least a foot (perhaps a foot and a half) tall, laden with fake pearls and greenery. The peas will get the respect they deserve.
 </p>
 
-<p>
-A couple more things happened, though I don’t know the order in which the issues occurred. The print detached from the bed and ended up stuck to the nozzle - definitely not good. Additionally, there were some nice gloop-esque tendrils extruded around the inside, a few areas slightly burnt.
-</p>
-<p>
-In addition, I learned that the 3MF format is editable, rather than just storing the surface of a model. It can store a lot of metadata, like color, material, and information about slicing. And, according to the glorious internet, since STL files rely on triangles, they often have less precision and are less efficient. While 3MF is better in a lot of ways, the main upside to STL seems to be that it’s basically universal - older printers may not understand 3MF.
-</p>
+
+
+</p>    
 
 
 
